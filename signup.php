@@ -1,6 +1,13 @@
 
 <?php
     
+<<<<<<< HEAD
+=======
+	//connect to database
+    include("db_connect.php");
+
+	
+>>>>>>> 0346b56 (DB_Connect)
 	 //check if sigup is clicked
 	 if(isset($_POST['save'])){
 		 
@@ -121,7 +128,11 @@
 	
 	 }
 	 
+<<<<<<< HEAD
 	  print_r(array_filter($error));
+=======
+	 
+>>>>>>> 0346b56 (DB_Connect)
 ?>
 
 
@@ -318,6 +329,9 @@ input[type="submit"]{
 </html>
 <!-- partial -->
   
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 0346b56 (DB_Connect)
 </body>
 </html>
