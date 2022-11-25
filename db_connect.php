@@ -27,8 +27,8 @@ if ($conn->connect_error) {
 }
 
 // prepare and bind
-$stmt = $conn->prepare("INSERT INTO UserData (firstname, phonenumber, email, password) VALUES (?, ?, ?, ?)");
-$stmt->bind_param("siss", $firstname, $phonenumber, $email, $password);
+$stmt = $conn->prepare("INSERT INTO UserData (firstname, phonenumber, email, password) VALUES (?, ?, ?)");
+$stmt->bind_param("sss", $firstname, $email, $password);
 
 // set parameters and execute
 $firstname = "John";
